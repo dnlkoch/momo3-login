@@ -4,14 +4,14 @@
  * Sencha Cmd when upgrading.
  */
 Ext.application({
-    name: 'MoMo.login',
+    name: 'SHOGun.login',
 
-    extend: 'MoMo.login.Application',
+    extend: 'SHOGun.login.Application',
 
     requires: [
-        'MoMo.login.view.main.Main'
+        'SHOGun.login.view.main.Main'
     ],
 
-    mainView: 'MoMo.login.view.main.Main'
+    mainView: 'SHOGun.login.view.main.Main'
 
 });

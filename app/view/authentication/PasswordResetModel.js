@@ -1,9 +1,9 @@
-Ext.define('MoMo.login.view.main.PasswordResetModel', {
+Ext.define('SHOGun.login.view.main.PasswordResetModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.passwordresetmodel',
 
     data: {
-        passwordResetTitle: 'MoMo - Reset Password',
+        passwordResetTitle: 'SHOGun - Reset Password',
         passwordResetDescription: 'Enter your email address for further ' +
             'reset instructions',
         emailAddressEmptyText: 'Email',

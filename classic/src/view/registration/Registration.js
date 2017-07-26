@@ -1,5 +1,5 @@
-Ext.define('MoMo.login.view.registration.Registration', {
-    extend: 'MoMo.login.view.authentication.LockingWindow',
+Ext.define('SHOGun.login.view.registration.Registration', {
+    extend: 'SHOGun.login.view.authentication.LockingWindow',
     xtype: 'registration',
 
     routeId: 'registration',
@@ -11,9 +11,9 @@ Ext.define('MoMo.login.view.registration.Registration', {
         'Ext.form.field.Checkbox',
         'Ext.button.Button',
 
-        'MoMo.login.view.registration.RegistrationController',
-        'MoMo.login.view.registration.RegistrationModel',
-        'MoMo.login.view.authentication.Dialog'
+        'SHOGun.login.view.registration.RegistrationController',
+        'SHOGun.login.view.registration.RegistrationModel',
+        'SHOGun.login.view.authentication.Dialog'
     ],
 
     bind: {
@@ -32,11 +32,9 @@ Ext.define('MoMo.login.view.registration.Registration', {
         itemId: 'headerBar',
         items: [
             {
-                xtype: 'momo-translation-de-button'
+                xtype: 'shogun-translation-de-button'
             }, {
-                xtype: 'momo-translation-en-button'
-            }, {
-                xtype: 'momo-translation-mn-button'
+                xtype: 'shogun-translation-en-button'
             }
         ]
     }, {

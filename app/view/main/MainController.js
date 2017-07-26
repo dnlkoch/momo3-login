@@ -1,4 +1,4 @@
-Ext.define('MoMo.login.view.main.MainController', {
+Ext.define('SHOGun.login.view.main.MainController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.maincontroller',
     routes: {
@@ -24,32 +24,32 @@ Ext.define('MoMo.login.view.main.MainController', {
     ],
 
     requires: [
-        'MoMo.login.view.authentication.Login',
-        'MoMo.login.view.registration.Registration',
-        'MoMo.login.view.authentication.PasswordReset',
-        'MoMo.login.view.authentication.PasswordChange',
-        'MoMo.login.view.authentication.ResendToken'
+        'SHOGun.login.view.authentication.Login',
+        'SHOGun.login.view.registration.Registration',
+        'SHOGun.login.view.authentication.PasswordReset',
+        'SHOGun.login.view.authentication.PasswordChange',
+        'SHOGun.login.view.authentication.ResendToken'
     ],
 
     showPasswordReset: function() {
-        this.switchView('MoMo.login.view.authentication.PasswordReset');
+        this.switchView('SHOGun.login.view.authentication.PasswordReset');
     },
 
     showPasswordChange: function(params) {
-        this.switchView('MoMo.login.view.authentication.PasswordChange',
+        this.switchView('SHOGun.login.view.authentication.PasswordChange',
                 params);
     },
 
     showRegistration: function() {
-        this.switchView('MoMo.login.view.registration.Registration');
+        this.switchView('SHOGun.login.view.registration.Registration');
     },
 
     showLogin: function() {
-        this.switchView('MoMo.login.view.authentication.Login');
+        this.switchView('SHOGun.login.view.authentication.Login');
     },
 
     showResendToken: function() {
-        this.switchView('MoMo.login.view.authentication.ResendToken');
+        this.switchView('SHOGun.login.view.authentication.ResendToken');
     },
 
     switchView: function(typeToCreate, params) {

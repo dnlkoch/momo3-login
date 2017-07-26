@@ -1,4 +1,4 @@
-Ext.define('MoMo.login.store.USStatesStore', {
+Ext.define('SHOGun.login.store.USStatesStore', {
     extend: 'Ext.data.Store',
 
     /**

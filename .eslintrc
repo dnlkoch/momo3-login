@@ -4,7 +4,7 @@
         "window": false,
         "document": true,
         "location": true,
-        "MoMo": true,
+        "SHOGun": true,
         "BasiGX": true
     },
     "rules": {

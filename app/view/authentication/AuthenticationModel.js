@@ -1,4 +1,4 @@
-Ext.define('MoMo.login.view.authentication.AuthenticationModel', {
+Ext.define('SHOGun.login.view.authentication.AuthenticationModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.authentication',
 

@@ -1,16 +1,16 @@
 /**
  * ToEnglish Button
  *
- * @class MoMo.client.view.button.translations.ToEnglish
+ * @class SHOGun.client.view.button.translations.ToEnglish
  */
-Ext.define('MoMo.login.view.button.translation.ToEnglish', {
+Ext.define('SHOGun.login.view.button.translation.ToEnglish', {
     extend: 'Ext.Button',
-    xtype: 'momo-translation-en-button',
+    xtype: 'shogun-translation-en-button',
     requires: [
         'Ext.app.ViewModel',
 
-        'MoMo.login.view.button.TranslationController',
-        'MoMo.login.view.button.TranslationModel'
+        'SHOGun.login.view.button.TranslationController',
+        'SHOGun.login.view.button.TranslationModel'
     ],
 
     controller: 'button.translation',

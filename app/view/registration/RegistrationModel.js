@@ -1,9 +1,9 @@
-Ext.define('MoMo.login.view.registration.RegistrationModel', {
+Ext.define('SHOGun.login.view.registration.RegistrationModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.registrationmodel',
 
     data: {
-        registrationTitle: 'MoMo - Create Account',
+        registrationTitle: 'SHOGun - Create Account',
         registrationDescriptionText: 'Enter e-mail and password to register.',
         registrationEmailEmptyText: 'Email',
         registrationPasswordEmptyText: 'Password',

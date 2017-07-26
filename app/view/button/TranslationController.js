@@ -17,13 +17,13 @@
  * TranslationController
  *
  * This controller implements the "on the fly" translation logic of the
- * momo application.
+ * shogun application.
  * The most functions are based on `BasiGX.view.combo.Language` class and were
  * adapted to work with buttons instead of combo box.
  *
- * @class MoMo.client.view.button.TranslationController
+ * @class SHOGun.client.view.button.TranslationController
  */
-Ext.define('MoMo.login.view.button.TranslationController', {
+Ext.define('SHOGun.login.view.button.TranslationController', {
     extend: 'Ext.app.ViewController',
 
     requires: [

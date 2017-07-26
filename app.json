@@ -2,7 +2,7 @@
     /**
      * The application's namespace.
      */
-    "name": "MoMo.login",
+    "name": "SHOGun.login",
 
     /**
      * The version of the application.
@@ -89,13 +89,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "MoMo.login.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "MoMo.login.view" then
+         * sass/src and sass/var directories. For example, "SHOGun.login.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "SHOGun.login.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "MoMo.login.view.Foo" to "sass/src/MoMo.login/view/Foo.scss".
+         * "SHOGun.login.view.Foo" to "sass/src/SHOGun.login/view/Foo.scss".
          */
-        "namespace": "MoMo.login",
+        "namespace": "SHOGun.login",
 
         /**
          * File used to save sass variables edited via Sencha Inspector. This file

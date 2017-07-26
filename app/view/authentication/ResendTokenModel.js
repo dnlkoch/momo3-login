@@ -1,9 +1,9 @@
-Ext.define('MoMo.login.view.main.ResendTokenModel', {
+Ext.define('SHOGun.login.view.main.ResendTokenModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.resendtokenmodel',
 
     data: {
-        resendTokenTitle: 'MoMo - Resend registration mail',
+        resendTokenTitle: 'SHOGun - Resend registration mail',
         resendTokenHtmlText: '<p>The account you tried to log in with is ' +
             'not activated.</p>' +
             '<p>You can activate your account by opening the ' +

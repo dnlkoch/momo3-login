@@ -1,8 +1,8 @@
 /**
- * @class MoMo.login.view.registration.RegisterWizardFormController
+ * @class SHOGun.login.view.registration.RegisterWizardFormController
  */
-Ext.define('MoMo.login.view.registration.RegistrationController', {
-    extend: 'MoMo.login.view.authentication.AuthenticationController',
+Ext.define('SHOGun.login.view.registration.RegistrationController', {
+    extend: 'SHOGun.login.view.authentication.AuthenticationController',
     alias: 'controller.registration',
     requires: [
         'BasiGX.util.CSRF',
@@ -41,7 +41,7 @@ Ext.define('MoMo.login.view.registration.RegistrationController', {
 
         Ext.Ajax.request({
             url: BasiGX.util.Url.getWebProjectBaseUrl() +
-                'momousers/registeruser.action',
+                'projectusers/registeruser.action',
             method: 'POST',
             headers: BasiGX.util.CSRF.getHeader(),
             params: submitValues,

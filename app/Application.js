@@ -3,10 +3,10 @@
  * when it calls Ext.application(). This is the ideal place to handle
  * application launch and initialization details.
  */
-Ext.define('MoMo.login.Application', {
+Ext.define('SHOGun.login.Application', {
     extend: 'Ext.app.Application',
 
-    name: 'MoMo.login',
+    name: 'SHOGun.login',
 
     stores: [
     ],

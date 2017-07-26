@@ -1,15 +1,15 @@
 /**
  *
  */
-Ext.define('MoMo.login.view.authentication.ResendToken', {
-    extend: 'MoMo.login.view.authentication.LockingWindow',
+Ext.define('SHOGun.login.view.authentication.ResendToken', {
+    extend: 'SHOGun.login.view.authentication.LockingWindow',
     xtype: 'resendtoken',
 
     routeId: 'resendtoken',
 
     requires: [
-        'MoMo.login.view.authentication.Dialog',
-        'MoMo.login.view.main.ResendTokenModel',
+        'SHOGun.login.view.authentication.Dialog',
+        'SHOGun.login.view.main.ResendTokenModel',
         'Ext.container.Container',
         'Ext.form.Label',
         'Ext.form.field.Text',
@@ -32,11 +32,9 @@ Ext.define('MoMo.login.view.authentication.ResendToken', {
         itemId: 'headerBar',
         items: [
             {
-                xtype: 'momo-translation-de-button'
+                xtype: 'shogun-translation-de-button'
             }, {
-                xtype: 'momo-translation-en-button'
-            }, {
-                xtype: 'momo-translation-mn-button'
+                xtype: 'shogun-translation-en-button'
             }
         ]
     }, {

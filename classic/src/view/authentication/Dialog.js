@@ -4,13 +4,13 @@
  * browsers or their plugins may restore/persist username, password and other
  * attributes to/from such forms.
  */
-Ext.define('MoMo.login.view.authentication.Dialog', {
+Ext.define('SHOGun.login.view.authentication.Dialog', {
     extend: 'Ext.form.Panel',
     xtype: 'authdialog',
 
     requires: [
-        'MoMo.login.view.authentication.AuthenticationController',
-        'MoMo.login.view.authentication.AuthenticationModel',
+        'SHOGun.login.view.authentication.AuthenticationController',
+        'SHOGun.login.view.authentication.AuthenticationModel',
         'Ext.form.Panel'
     ],
 

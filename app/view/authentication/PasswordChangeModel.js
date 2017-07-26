@@ -1,9 +1,9 @@
-Ext.define('MoMo.login.view.main.PasswordChangeModel', {
+Ext.define('SHOGun.login.view.main.PasswordChangeModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.passwordchangemodel',
 
     data: {
-        changePasswordTitle: 'MoMo - Change Password',
+        changePasswordTitle: 'SHOGun - Change Password',
         newPasswordText: 'Enter your new password.',
         passwordEmptyText: 'Password',
         confirmPasswordEmptyText: 'Confirm Password',

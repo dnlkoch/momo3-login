@@ -3,7 +3,7 @@
  * as the "mainView" property. That setting automatically applies the "viewport"
  * plugin causing this view to become the body element (i.e., the viewport).
  */
-Ext.define('MoMo.login.view.main.Main', {
+Ext.define('SHOGun.login.view.main.Main', {
     extend: 'Ext.container.Viewport',
     xtype: 'app-main',
     controller: 'maincontroller',
@@ -12,9 +12,9 @@ Ext.define('MoMo.login.view.main.Main', {
     requires: [
         'Ext.window.MessageBox',
 
-        'MoMo.login.view.main.MainController',
-        'MoMo.login.view.main.MainModel',
-        'MoMo.login.view.authentication.Login',
+        'SHOGun.login.view.main.MainController',
+        'SHOGun.login.view.main.MainModel',
+        'SHOGun.login.view.authentication.Login',
         'BasiGX.util.CSRF'
     ],
 
@@ -23,7 +23,7 @@ Ext.define('MoMo.login.view.main.Main', {
     initComponent: function() {
 
         this.callParent(arguments);
-        Ext.create('MoMo.login.view.authentication.Login');
+        Ext.create('SHOGun.login.view.authentication.Login');
 
     }
 });

@@ -1,12 +1,12 @@
-Ext.define('MoMo.login.view.authentication.PasswordChange', {
-    extend: 'MoMo.login.view.authentication.LockingWindow',
+Ext.define('SHOGun.login.view.authentication.PasswordChange', {
+    extend: 'SHOGun.login.view.authentication.LockingWindow',
     xtype: 'passwordchange',
 
     routeId: 'passwordchange',
 
     requires: [
-        'MoMo.login.view.authentication.Dialog',
-        'MoMo.login.view.main.PasswordChangeModel',
+        'SHOGun.login.view.authentication.Dialog',
+        'SHOGun.login.view.main.PasswordChangeModel',
         'Ext.container.Container',
         'Ext.form.Label',
         'Ext.form.field.Text',
@@ -30,11 +30,9 @@ Ext.define('MoMo.login.view.authentication.PasswordChange', {
         itemId: 'headerBar',
         items: [
             {
-                xtype: 'momo-translation-de-button'
+                xtype: 'shogun-translation-de-button'
             }, {
-                xtype: 'momo-translation-en-button'
-            }, {
-                xtype: 'momo-translation-mn-button'
+                xtype: 'shogun-translation-en-button'
             }
         ]
     }, {

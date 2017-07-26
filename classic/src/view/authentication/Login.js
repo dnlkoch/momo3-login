@@ -1,19 +1,18 @@
 /**
  * The Login Form
  */
-Ext.define('MoMo.login.view.authentication.Login', {
-    extend: 'MoMo.login.view.authentication.LockingWindow',
+Ext.define('SHOGun.login.view.authentication.Login', {
+    extend: 'SHOGun.login.view.authentication.LockingWindow',
     xtype: 'login',
     viewModel: 'loginmodel',
 
     routeId: 'login',
 
     requires: [
-        'MoMo.login.view.authentication.Dialog',
-        'MoMo.login.view.button.translation.ToMongolian',
-        'MoMo.login.view.button.translation.ToGerman',
-        'MoMo.login.view.button.translation.ToEnglish',
-        'MoMo.login.view.authentication.Login',
+        'SHOGun.login.view.authentication.Dialog',
+        'SHOGun.login.view.button.translation.ToGerman',
+        'SHOGun.login.view.button.translation.ToEnglish',
+        'SHOGun.login.view.authentication.Login',
         'Ext.form.field.Text',
         'Ext.form.Label',
         'Ext.button.Button',
@@ -34,11 +33,9 @@ Ext.define('MoMo.login.view.authentication.Login', {
         itemId: 'headerBar',
         items: [
             {
-                xtype: 'momo-translation-de-button'
+                xtype: 'shogun-translation-de-button'
             }, {
-                xtype: 'momo-translation-en-button'
-            }, {
-                xtype: 'momo-translation-mn-button'
+                xtype: 'shogun-translation-en-button'
             }
         ]
     }, {

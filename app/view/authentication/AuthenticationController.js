@@ -1,4 +1,4 @@
-Ext.define('MoMo.login.view.authentication.AuthenticationController', {
+Ext.define('SHOGun.login.view.authentication.AuthenticationController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.authentication',
     requires: [
@@ -46,7 +46,7 @@ Ext.define('MoMo.login.view.authentication.AuthenticationController', {
 
         Ext.Ajax.request({
             url: BasiGX.util.Url.getWebProjectBaseUrl() +
-                'momousers/resetPassword.action',
+                'projectusers/resetPassword.action',
             method: 'POST',
             headers: BasiGX.util.CSRF.getHeader(),
             params: reqParams,
@@ -98,7 +98,7 @@ Ext.define('MoMo.login.view.authentication.AuthenticationController', {
 
         Ext.Ajax.request({
             url: BasiGX.util.Url.getWebProjectBaseUrl() +
-                'momousers/changePassword.action',
+                'projectusers/changePassword.action',
             method: 'POST',
             headers: BasiGX.util.CSRF.getHeader(),
             params: Ext.Object.merge(inputReqParamsObj, pwdObj),
@@ -185,7 +185,7 @@ Ext.define('MoMo.login.view.authentication.AuthenticationController', {
 
         Ext.Ajax.request({
             url: BasiGX.util.Url.getWebProjectBaseUrl() +
-                    'momousers/resendToken.action',
+                    'projectusers/resendToken.action',
             method: 'POST',
             headers: BasiGX.util.CSRF.getHeader(),
             params: reqParams,
